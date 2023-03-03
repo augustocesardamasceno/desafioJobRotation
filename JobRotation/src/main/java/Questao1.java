@@ -3,9 +3,10 @@ public class Questao1 {
 
         int indice = 13;
         int soma = 0;
+        int k = 0;
         for (int i = 0; i < indice; i++){
-            i++;
-            soma += i;
+            k += 1;
+            soma += k;
         }
         System.out.println(soma);
     }
